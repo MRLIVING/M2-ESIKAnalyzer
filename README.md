@@ -39,6 +39,7 @@ Please watch the ES version and download the matching plugin version.
 ./bin/elasticsearch-plugin install https://github.com/medcl/elasticsearch-analysis-ik/releases/download/v7.6.2/elasticsearch-analysis-ik-7.6.2.zip
 ```
 
+## Magento 2 extension
 ### Mapping of each Field Analyzer
 * `_search` [mapping source](https://github.com/magento/magento2/blob/2.4.2/app/code/Magento/Elasticsearch/Model/Adapter/FieldMapper/AddDefaultSearchField.php#L29-L32)
 ```
