@@ -1,6 +1,6 @@
 # M2-ESIKAnalyzer
 
-We describe how set up the Elesticsearch search field with Chinese Analyzer, i.e.[IK Analyzer](https://github.com/medcl/elasticsearch-analysis-ik/tree/master).
+We describe how set up the Elesticsearch search field with Chinese Analyzer, i.e. [IK Analyzer](https://github.com/medcl/elasticsearch-analysis-ik/tree/master).
 
 ## Elesticsearch configuration
 
