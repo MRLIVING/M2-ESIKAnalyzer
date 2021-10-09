@@ -33,7 +33,8 @@ discovery.seed_hosts: []
 cluster.initial_master_nodes: []
 ```
 
-### [Install IK Analysis regarding the Elasticsearch version](https://github.com/medcl/elasticsearch-analysis-ik/tree/v7.6.2#install)
+### [Install IK Analysis for Elasticsearch](https://github.com/medcl/elasticsearch-analysis-ik/tree/v7.6.2#install)
+Please watch the ES version and download the matching plugin version.
 ```
 ./bin/elasticsearch-plugin install https://github.com/medcl/elasticsearch-analysis-ik/releases/download/v7.6.2/elasticsearch-analysis-ik-7.6.2.zip
 ```
