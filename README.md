@@ -1,6 +1,8 @@
 # M2-ESIKAnalyzer
 
-### 
+We describe how set up the Elesticsearch search field with Chinese Analyzer, i.e.[IK Analyzer](https://github.com/medcl/elasticsearch-analysis-ik/tree/master).
+
+## Elesticsearch configuration
 
 ### [Virtual memory](https://www.elastic.co/guide/en/elasticsearch/reference/current/vm-max-map-count.html)
 
