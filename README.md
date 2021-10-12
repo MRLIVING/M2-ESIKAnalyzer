@@ -45,6 +45,10 @@ kill ${ES_PROCESS_ID}
 ./bin/elasticsearch -d
 ```
 
+## Elesticsearch Client
+### [Chrome extension - ElasticSearch Head](https://chrome.google.com/webstore/detail/elasticsearch-head/ffmkiejjmecolpfloofpjologoblkegm)
+
+
 ## Magento 2 extension
 ### Mapping of each Field Analyzer
 * `_search` [mapping source](https://github.com/magento/magento2/blob/2.4.2/app/code/Magento/Elasticsearch/Model/Adapter/FieldMapper/AddDefaultSearchField.php#L29-L32)
