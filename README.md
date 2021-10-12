@@ -52,7 +52,9 @@ kill ${ES_PROCESS_ID}
   `GET /${INDEX_NAME}/_mapping`
   
 * [Search API](https://www.elastic.co/guide/en/elasticsearch/reference/current/search-search.html#search-search)  
+  * [query string syntax](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html#query-string-syntax)    
   `_search?q=name:枕頭`
+  
 
 
 ## Magento 2 extension
