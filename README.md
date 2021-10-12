@@ -48,7 +48,12 @@ kill ${ES_PROCESS_ID}
 ## Elesticsearch Client
 ### [Chrome extension - ElasticSearch Head](https://chrome.google.com/webstore/detail/elasticsearch-head/ffmkiejjmecolpfloofpjologoblkegm)
 ### Elesticsearch Top APIs 
-* [Get mapping API](https://www.elastic.co/guide/en/elasticsearch/reference/current/indices-get-mapping.html#indices-get-mapping) - `GET /${INDEX_NAME}/_mapping`
+* [Get mapping API](https://www.elastic.co/guide/en/elasticsearch/reference/current/indices-get-mapping.html#indices-get-mapping)  
+  `GET /${INDEX_NAME}/_mapping`
+  
+* [Search API](https://www.elastic.co/guide/en/elasticsearch/reference/current/search-search.html#search-search)  
+  `_search?q=name:枕頭`
+
 
 ## Magento 2 extension
 ### Mapping of each Field Analyzer
