@@ -1,6 +1,7 @@
 # M2-ESIKAnalyzer
 
 We describe here how to set up the Elesticsearch search field with Chinese Analyzer., i.e. [IK Analyzer](https://github.com/medcl/elasticsearch-analysis-ik/tree/master).  
+Thanks to [Medcl](https://github.com/medcl), based on his efforts, we could analyze a document in Chinese conveniently
 The other purpose is to document our journey of site search optimization and step to the customer preference result.
 
 Since Magento version 2.4, Magento requires Elasticsearch to be the catalog search engine.
