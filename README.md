@@ -6,6 +6,10 @@ The other purpose is to document our journey of site search optimization and ste
 Since Magento version 2.4, Magento requires Elasticsearch to be the catalog search engine. 
 TODO...
 
+### Problem example
+* 枕頭 / 頭枕
+
+
 ## Elesticsearch Production Mode Configuration
 
 ### [Virtual memory](https://www.elastic.co/guide/en/elasticsearch/reference/current/vm-max-map-count.html)
