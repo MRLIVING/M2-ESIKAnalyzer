@@ -66,7 +66,7 @@ kill ${ES_PROCESS_ID}
   
 * [Search API](https://www.elastic.co/guide/en/elasticsearch/reference/current/search-search.html#search-search)  
   * [query string syntax](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html#query-string-syntax)  
-  `GET _search?q=name:枕頭&_source=name`
+  `GET _search?q=name:枕頭&_source=name&size=5`
 
 * [Term vectors API](https://www.elastic.co/guide/en/elasticsearch/reference/7.6/docs-termvectors.html#docs-termvectors)  
   `GET _termvectors/6640?fields=name`
