@@ -47,7 +47,7 @@ kill ${ES_PROCESS_ID}
 
 ## Elesticsearch Client
 ### [Chrome extension - ElasticSearch Head](https://chrome.google.com/webstore/detail/elasticsearch-head/ffmkiejjmecolpfloofpjologoblkegm)
-* Use `http://${ES_HOST}:9200/` to connect ES service by default.
+* Use `http://${ES_HOST}:9200/` to connect the ES service by default.
 
 ### Elesticsearch Top APIs 
 * [Get mapping API](https://www.elastic.co/guide/en/elasticsearch/reference/current/indices-get-mapping.html#indices-get-mapping)  
