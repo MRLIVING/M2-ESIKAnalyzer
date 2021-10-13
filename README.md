@@ -59,6 +59,13 @@ kill ${ES_PROCESS_ID}
   
 
 ## Magento 2 extension
+### Installation 
+TODO
+
+### [Reindex](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-index.html#config-cli-subcommands-index-reindex) 
+* Catalog Search
+  `/bin/magento index:reindex catalogsearch_fulltext`
+
 ### Source for the [ES Field Analyzers](https://www.elastic.co/guide/en/elasticsearch/reference/current/analysis-analyzers.html#analysis-analyzers)
 * `_search` [mapping source](https://github.com/magento/magento2/blob/2.4.2/app/code/Magento/Elasticsearch/Model/Adapter/FieldMapper/AddDefaultSearchField.php#L29-L32)
   ```
