@@ -13,6 +13,8 @@ TODO...
 ### Problem sample
 * 枕頭 / 頭枕
 
+## Overview of Search Term Tuning
+![](https://github.com/MRLIVING/M2-ESIKAnalyzer/blob/main/doc/img/overview_search_term_tuning.PNG?raw=true)
 
 ## Elesticsearch Production Mode Configuration
 
