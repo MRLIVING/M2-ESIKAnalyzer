@@ -51,12 +51,15 @@ kill ${ES_PROCESS_ID}
 
 ### Elesticsearch Top APIs 
 * [Get mapping API](https://www.elastic.co/guide/en/elasticsearch/reference/current/indices-get-mapping.html#indices-get-mapping)  
-  `GET /${INDEX_NAME}/_mapping`
+  `GET http://${ES_HOST}:9200/${INDEX_NAME}/_mapping`
   
 * [Search API](https://www.elastic.co/guide/en/elasticsearch/reference/current/search-search.html#search-search)  
-  * [query string syntax](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html#query-string-syntax)    
-  `_search?q=name:枕頭`
-  
+  * [query string syntax](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html#query-string-syntax)  
+  `GET http://${ES_HOST}:9200/${INDEX_NAME}/_search?q=name:枕頭`
+
+* [Term vectors API](https://www.elastic.co/guide/en/elasticsearch/reference/7.6/docs-termvectors.html#docs-termvectors)
+  `GET http://${ES_HOST}:9200/${INDEX_NAME}/_termvectors/6640?fields=name`
+
 
 ## Magento 2 extension
 ### Installation 
