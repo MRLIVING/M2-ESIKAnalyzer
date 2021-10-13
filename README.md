@@ -6,6 +6,7 @@ Thanks to [Medcl](https://github.com/medcl), based on his efforts, we could anal
 The other purpose is to document our journey of site search optimization and step to the customer preference result.
 
 Since Magento version 2.4, Magento requires Elasticsearch to be the catalog search engine.
+In Elasticsearch
 
 TODO...
 
@@ -77,7 +78,10 @@ TODO...
 
 ### [Reindex](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-index.html#config-cli-subcommands-index-reindex)  
 * Catalog Search  
-  `/bin/magento index:reindex catalogsearch_fulltext`
+  `./bin/magento index:reindex catalogsearch_fulltext`
+  
+  The upgrade command also trigger the search index to rebuild
+  `./bin/magento setup:upgrade`
 
 ### Source for the [ES Field Analyzers](https://www.elastic.co/guide/en/elasticsearch/reference/current/analysis-analyzers.html#analysis-analyzers)
 * `_search` [mapping source](https://github.com/magento/magento2/blob/2.4.2/app/code/Magento/Elasticsearch/Model/Adapter/FieldMapper/AddDefaultSearchField.php#L29-L32)
