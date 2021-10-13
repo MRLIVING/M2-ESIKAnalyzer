@@ -64,11 +64,11 @@ kill ${ES_PROCESS_ID}
   `GET _termvectors/6640?fields=name`
 
 
-## Magento 2 extension
-### Installation 
+## Magento 2 extension - ESIKAnalyzer, alter field mapping
+### Installation  
 TODO...
 
-### [Reindex](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-index.html#config-cli-subcommands-index-reindex) 
+### [Reindex](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-index.html#config-cli-subcommands-index-reindex)  
 * Catalog Search  
   `/bin/magento index:reindex catalogsearch_fulltext`
 
