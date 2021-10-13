@@ -54,6 +54,10 @@ kill ${ES_PROCESS_ID}
 ./bin/elasticsearch -d
 ```
 
+### Dictionary Hot/Online update
+TODO...
+
+
 ## Elesticsearch Client
 ### [Chrome extension - ElasticSearch Head](https://chrome.google.com/webstore/detail/elasticsearch-head/ffmkiejjmecolpfloofpjologoblkegm)
 * Use `http://${ES_HOST}:9200/` to connect the ES service by default.
