@@ -93,5 +93,5 @@ Check [di.xml](https://github.com/MRLIVING/M2-ESIKAnalyzer/blob/main/etc/di.xml)
 
 ## Reference 
 * [IK Analysis for Elasticsearch](https://github.com/medcl/elasticsearch-analysis-ik/tree/v7.6.2)
-* [IR and Solr](https://1drv.ms/p/s!Ah4j_zHPfrc8hxY8cJwI8oIRri7r?e=bWOY6y)
+* [Information retrieval and Solr](https://1drv.ms/p/s!Ah4j_zHPfrc8hxY8cJwI8oIRri7r?e=bWOY6y)
 
