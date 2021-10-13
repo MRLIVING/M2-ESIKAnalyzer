@@ -6,7 +6,7 @@ Thanks to [Medcl](https://github.com/medcl), based on his efforts, we could anal
 The other purpose is to document our journey of site search optimization and step to the customer preference result.
 
 Since Magento version 2.4, Magento requires Elasticsearch to be the catalog search engine.  
-In Elasticsearch, we can tune the search result via customize Analyzer, Dictionary, Search Query, etc.
+In Elasticsearch, we can tune the search result via customize Analyzer, Dictionary, Search Query, and etc.
 
 
 ### Problem sample
