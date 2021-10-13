@@ -69,5 +69,7 @@ kill ${ES_PROCESS_ID}
 * `name` and the others [mapping source](https://github.com/magento/magento2/blob/2.4.2/app/code/Magento/Elasticsearch/Model/Adapter/FieldMapper/Product/FieldProvider/StaticField.php#L202-L216)
   * [isNeedToAddCustomAnalyzer()](https://github.com/magento/magento2/blob/33242e4b19cf207d7b73f7791ef894b48bb41f8a/app/code/Magento/Elasticsearch/Model/Adapter/FieldMapper/Product/FieldProvider/StaticField.php#L202) and [getCustomAnalyzer()](https://github.com/magento/magento2/blob/2.4.2/app/code/Magento/Elasticsearch/Model/Adapter/FieldMapper/Product/FieldProvider/StaticField.php#L213) are invoked by [getField()](https://github.com/magento/magento2/blob/2.4.2/app/code/Magento/Elasticsearch/Model/Adapter/FieldMapper/Product/FieldProvider/StaticField.php#L131). therefore we alter the mapping data by [intercepting plugin](https://www.mageplaza.com/magento-2-module-development/magento-2-plugin-interceptor.html) after the function call.   
 
+Check [di.xml](https://github.com/MRLIVING/M2-ESIKAnalyzer/blob/main/etc/di.xml) for override and interception detail.
+
 ## Reference 
 * [IK Analysis for Elasticsearch](https://github.com/medcl/elasticsearch-analysis-ik/tree/v7.6.2)
