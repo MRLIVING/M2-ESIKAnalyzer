@@ -58,7 +58,7 @@ kill ${ES_PROCESS_ID}
 
 
 ## Magento 2 extension
-### Mapping of each Field Analyzer
+### Source of the Field Analyzers 
 * `_search` [mapping source](https://github.com/magento/magento2/blob/2.4.2/app/code/Magento/Elasticsearch/Model/Adapter/FieldMapper/AddDefaultSearchField.php#L29-L32)
 ```
     public function process(array $mapping): array
