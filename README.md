@@ -80,7 +80,7 @@ TODO...
 * Catalog Search  
   `./bin/magento index:reindex catalogsearch_fulltext`
   
-  The upgrade command also trigger the search index to rebuild
+  The upgrade command also trigger the search index to rebuild.  
   `./bin/magento setup:upgrade`
 
 ### Source for the [ES Field Analyzers](https://www.elastic.co/guide/en/elasticsearch/reference/current/analysis-analyzers.html#analysis-analyzers)
