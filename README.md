@@ -77,7 +77,7 @@ TODO...
   `GET _termvectors/6640?fields=name`
 
 
-## Magento 2 extension - ESIKAnalyzer, alter field mapping
+## Magento 2 extension - ESIKAnalyzer, alter fields mapping
 ### Installation  
 TODO...
 
