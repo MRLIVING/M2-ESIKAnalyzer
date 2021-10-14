@@ -1,5 +1,5 @@
 <?php
-namespace Mrliving\ESIKAnalyzer\Plugin\Adapter\FieldMapper\Product\FieldProvider;
+namespace Mrl\ESIKAnalyzer\Plugin\Adapter\FieldMapper\Product\FieldProvider;
 
 
 class StaticField
@@ -11,11 +11,14 @@ class StaticField
         if ( ! empty($fieldMapping['name'])) {
             $fieldMapping['name']['analyzer'] = 'ik_max_word';
         }
+        elseif ( ! empty($fieldMapping['description'])) {
+            $fieldMapping['description']['analyzer'] = 'ik_max_word';
+        }
 
         return $fieldMapping;
     }
 
-    
+
 }
 
 ?>

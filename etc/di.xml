@@ -3,13 +3,13 @@
 
     <type name="Magento\Elasticsearch\Model\Adapter\FieldMapper\Product\FieldProvider\StaticField">
         <plugin name="Mrl_ESIKAnalyzer_StaticField"
-                type="Mrliving\ESIKAnalyzer\Plugin\Adapter\FieldMapper\Product\FieldProvider\StaticField" 
+                type="Mrl\ESIKAnalyzer\Plugin\Adapter\FieldMapper\Product\FieldProvider\StaticField" 
                 sortOrder="1" 
                 disabled="false"/>                                                                  
     </type>                
 
     <preference for="Magento\Elasticsearch\Model\Adapter\FieldMapper\AddDefaultSearchField"
-               type="Mrliving\ESIKAnalyzer\Model\Adapter\FieldMapper\AddDefaultSearchField" />
+               type="Mrl\ESIKAnalyzer\Model\Adapter\FieldMapper\AddDefaultSearchField" />
 
 
 </config>

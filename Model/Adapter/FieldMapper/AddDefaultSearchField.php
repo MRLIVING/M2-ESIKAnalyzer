@@ -1,6 +1,6 @@
 <?php
 
-namespace Mrliving\ESIKAnalyzer\Model\Adapter\FieldMapper;
+namespace Mrl\ESIKAnalyzer\Model\Adapter\FieldMapper;
 
 
 class AddDefaultSearchField extends \Magento\Elasticsearch\Model\Adapter\FieldMapper\AddDefaultSearchField
